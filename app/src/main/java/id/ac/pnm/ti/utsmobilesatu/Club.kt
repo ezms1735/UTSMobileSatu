@@ -6,17 +6,17 @@ data class Club (
     val fa: Int, //FA Cup trophy
     val efl: Int, //EFL Cup trophy
     val ligaChampions: Int, //Champions League trophy
-    val ligaEuropa: Int, //Europa League trophy
+    val ligaEuropa: Int, //Eropa League trophy
 ){
     val totalTrophy: Int
         get() = epl + fa + efl + ligaChampions + ligaEuropa
 
     fun recap(): String {
-        return "Club Name : $name\n" +
-                "EPL Titles : $epl\n" +
-                "FA Cup Titles : $fa\n" +
-                "Champions League Titles : $ligaChampions\n" +
-                "Europa League Titles : $ligaEuropa\n" +
-                "Total Trophied : $totalTrophy"
+        return "$name\n" +
+                "Trofi EPL                     : $epl\n" +
+                "Trofi FA                      : $fa\n" +
+                "Trofi Liga Champions          : $ligaChampions\n" +
+                "Trofi Liga Europa             : $ligaEuropa\n" +
+                "Total Trofi yang diraih adalah: $totalTrophy"
     }
 }
