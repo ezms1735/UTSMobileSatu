@@ -15,6 +15,7 @@ data class Club (
         return "$name\n" +
                 "Trofi EPL                     : $epl\n" +
                 "Trofi FA                      : $fa\n" +
+                "Trofi EFL                     : $efl\n" +
                 "Trofi Liga Champions          : $ligaChampions\n" +
                 "Trofi Liga Europa             : $ligaEuropa\n" +
                 "Total Trofi yang diraih adalah: $totalTrophy"
